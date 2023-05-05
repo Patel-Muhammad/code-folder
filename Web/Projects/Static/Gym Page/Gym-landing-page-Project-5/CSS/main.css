@@ -1,0 +1,21 @@
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+  --font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 1.6rem;
+}/*# sourceMappingURL=main.css.map */

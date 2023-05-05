@@ -1,0 +1,2 @@
+Hello this is a text, writen from 1st.py
+This is the second line

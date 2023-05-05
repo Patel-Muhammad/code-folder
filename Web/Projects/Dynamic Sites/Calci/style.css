@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gotham Rounded', sans-serif;
+    font-weight: 300;                            
+}
+
+body{
+    background: linear-gradient(-45deg, #53eb5b, #22afe3,#fa9090, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 100vh;
+    padding: 0;
+    margin: 0;   
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.cal-grid{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120px,auto) repeat(5,100px);
+}
+button{
+    /* cursor: pointer; */
+    font-size: 2rem;
+    border: 1.2px solid white;
+    outline:none;
+    background-color: rgba(255,255,255,0.75);
+}
+button:hover{
+    background-color: rgba(255,255,255,0.9);
+    cursor: pointer;
+    transition: 0.1s all ease;
+}
+.blue{
+    background-color:rgba(134, 205, 228, 0.9);
+}
+.blue:hover{
+    
+    background-color:rgba(185, 218, 229, 0.75);
+    transition: 0.1s all ease;
+}
+.orange{
+    background-color:rgba(238, 150, 56, 1);
+}
+
+.orange:hover{
+    background-color:rgba(239, 164, 85, 0.9);
+    
+    transition: 0.1s all ease;
+}
+.span-two{
+    grid-column: span 2;
+}
+.output{
+    grid-column: 1 / -1;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.output-pre{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+}
+.output-cur{
+    color: white;
+    font-size: 2.5rem;
+
+}
+@media (max-width:540px){
+    .cal-grid{
+        /* margin: 100px 50px; */
+        min-width: 200px;
+        grid-template-columns: repeat(4,80px);
+    grid-template-rows: minmax(120px,auto) repeat(5,100px);
+    }
+    button{
+        font-size: 1.2rem;
+    }
+    .output-pre{
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 1rem;
+    }
+    .output-cur{
+        color: white;
+        font-size: 2rem;
+    
+    }
+}

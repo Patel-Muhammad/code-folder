@@ -1,0 +1,15 @@
+.white{
+    background-color: blue;
+    color: white;
+}
+.brown{
+    color: brown;
+    background-color: white;
+}
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

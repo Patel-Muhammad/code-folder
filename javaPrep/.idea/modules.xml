@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IfElseJavaProblems/IfElseJavaProblems.iml" filepath="$PROJECT_DIR$/IfElseJavaProblems/IfElseJavaProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPractice/JavaPractice.iml" filepath="$PROJECT_DIR$/JavaPractice/JavaPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loops Practice/Loops Practice.iml" filepath="$PROJECT_DIR$/Loops Practice/Loops Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecurssionStart/RecurssionStart.iml" filepath="$PROJECT_DIR$/RecurssionStart/RecurssionStart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ifElseProblems/ifElseProblems.iml" filepath="$PROJECT_DIR$/ifElseProblems/ifElseProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaPractice1/javaPractice1.iml" filepath="$PROJECT_DIR$/javaPractice1/javaPractice1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/javaPrep.iml" filepath="$PROJECT_DIR$/.idea/javaPrep.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1499988921418-b7df40ff03f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: 80rem;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0.15rem 0.15rem 0.3rem  rgba(0,0,0,0.2);
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+    font-size: 2.8rem;
+}
+.clock-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.time{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: flex-end;
+}
+.time-box-number{
+    margin-top: 1.5rem;
+    margin-right: .5rem;
+    font-size: 3rem;
+    background-color: rgba(255, 228, 196, 0.704);
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time-box-unit{
+    padding: 2rem;
+    margin-top: 0%;
+    font-size: 1rem;
+    background-color: rgba(239, 173, 92, 0.521);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 0.5rem;
+
+}
+
+.time-box-ampm{
+    background-color: rgba(31, 31, 31, 0.829);
+    color: white;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-left: .6rem;    
+    padding-right: .6rem;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0.15rem 0.15rem 0.3rem  rgba(255, 255, 255, 0.2);
+}

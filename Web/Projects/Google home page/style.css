@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+.header-container {
+    height: 6.5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right {
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+    font-size: 13px;
+}
+
+li a img {
+    height: 32px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+li img {
+    height: 24px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 72vh;
+}
+.input-box {
+    height: 44px;
+    width: 582.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 8px 0 14px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .18);
+    margin: 20px 0;
+}
+.input-box:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+
+.input-box .mic,
+.input-box .lens {
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.input-box .search {
+    padding-right: 13px;
+    cursor: pointer;
+}
+
+.input-box input {
+    border: none;
+    flex-grow: 1;
+    height: 34px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.buttons button{
+    margin-top: 18px;
+    height: 36px;
+    width: 127px;
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buttons button:hover {
+    background-color: #f1f3f4;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+}
+
+.languages{
+    margin-top: 30px;
+    font-size: 13px;
+}
+.languages a{
+    text-decoration: none;
+    margin: 0 4px;
+}
+.languages span {
+    color: #70757a;
+}
+
+.footer{
+    height: 10vh;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

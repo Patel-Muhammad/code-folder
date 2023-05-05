@@ -1,0 +1,38 @@
+body{
+/* Created with https://www.css-gradient.com */
+background: #3254A5;
+background: -webkit-linear-gradient(bottom, #3254A5, #8EEAD3);
+background: -moz-linear-gradient(bottom, #3254A5, #8EEAD3);
+background: linear-gradient(to top, #3254A5, #8EEAD3);
+height: 100vh;
+
+}
+
+ol ol{
+    list-style-type: circle;
+}
+
+ol ol ol{
+    list-style-type:disc;
+}
+.btn{
+    padding: 12px 27px;
+    border-radius: 50px;
+    margin: 30px;
+    background-color: #25a137;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    transition: 0.3s all ease;
+    background-color: #2ab03efb;
+    
+
+}

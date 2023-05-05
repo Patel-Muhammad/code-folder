@@ -1,0 +1,5 @@
+f1 = open("document.txt","r")
+# f1.write("Hello this is a text, writen from 1st.py")
+data = f1.read()
+f1.close()
+print(data)
